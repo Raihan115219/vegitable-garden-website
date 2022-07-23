@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Responsive Design Bootstrap 5</title>
+    <!-- light Box popup -->
+    <link rel="stylesheet" href="CSS/lightbox.css" />
+    <!-- Bootstrap 5 CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+    />
+    <!-- fontawosome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- style.css -->
+    <link rel="stylesheet" href="CSS/Main.css" />
+    <link rel="stylesheet" href="CSS/responsive-style.css" />
+  </head>
+  <body>
+    <!-- Navbar section start -->
+    <header id="full_nav">
+      <div class="header">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#"
+              ><img src="./images/logo.png" alt="logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <!-- <span class="navbar-toggler-icon"></span> -->
+              <i class="fas fa-stream navbar-toggler-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Product.html">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+              </ul>
+              <div class="header_right">
+                <div class="text-lg-end">
+                  <span>Call US !</span>
+                  <span class="phone_number">+9159868149688</span>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar section Exit -->
+    <!-- banner section start -->
+    <section class="banner_section">
+      <div class="container">
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-caption ms-5 ps-5">
+                <div class="banner-content">
+                  <h1>100% organic</h1>
+                  <h3>Your Staisfactions is our prirority</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reiciendis modi nesciunt vero eligendi odio eveniet!
+                  </p>
+                  <a href="Product.html" class="btn main-btn">All Products</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <div class="carousel-caption ms-5 ps-5">
+                <div class="banner-content">
+                  <h1>Fastest Delivery!</h1>
+                  <h3>We have our own tranpotaions</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reiciendis modi nesciunt vero eligendi odio eveniet!
+                  </p>
+                  <a href="Product.html" class="btn main-btn">All Products</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption ms-5 ps-5">
+                <div class="banner-content">
+                  <h1>Feel Free to contact us</h1>
+                  <h3>You wll be our happiest customer</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reiciendis modi nesciunt vero eligendi odio eveniet!
+                  </p>
+                  <a href="Product.html" class="btn main-btn">All Products</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- banner section exit -->
+    <!-- feature secton start -->
+    <section class="feature_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-lg-3 mb-5">
+            <div class="card features-box">
+              <div class="text-center">
+                <div class="features-icon-border">
+                  <div class="features-icon">
+                    <img
+                      src="./images//feature-icon/ui-chat.svg"
+                      alt="features icons"
+                    />
+                  </div>
+                </div>
+                <div class="features-text">
+                  <h3>24/07 suport</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 mb-5">
+            <div class="card features-box">
+              <div class="text-center">
+                <div class="features-icon-border">
+                  <div class="features-icon">
+                    <img
+                      src="./images//feature-icon/truck-loaded.svg"
+                      alt="features icons"
+                    />
+                  </div>
+                </div>
+                <div class="features-text">
+                  <h3>Shiping</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 mb-5">
+            <div class="card features-box">
+              <div class="text-center">
+                <div class="features-icon-border">
+                  <div class="features-icon">
+                    <img
+                      src="./images//feature-icon/wheat.svg"
+                      alt="features icons"
+                    />
+                  </div>
+                </div>
+                <div class="features-text">
+                  <h3>Fresh and hot</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 mb-5">
+            <div class="card features-box">
+              <div class="text-center">
+                <div class="features-icon-border">
+                  <div class="features-icon">
+                    <img
+                      src="./images//feature-icon/lemon.svg"
+                      alt="features icons"
+                    />
+                  </div>
+                </div>
+                <div class="features-text">
+                  <h3>Form Our Farm</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- feature secton end -->
+    <!-- About Section start -->
+    <section class="landing_about_section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-5 col-lg-6 col-sm-8">
+            <div class="about-content">
+              <h2>Lorem ipsum dolor sit amet.</h2>
+              <div class="about-details">
+                <p class="fw-bold">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quod, vero.
+                </p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptates ipsam quo ullam provident omnis dolorem a
+                  similique. Et, ipsum sequi?
+                </p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Incidunt commodi excepturi veniam, architecto beatae ducimus?
+                </p>
+                <a href="about.html" class="btn main-btn">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section End -->
+
+    <!-- Landing Product seciton  -->
+    <section class="landing_product_section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center pb-5">
+            <h2 class="section-title">Lorem ipsum dolor sit amet.</h2>
+            <p class="section-subtitle">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+              blanditiis quis, aut voluptates iste provident.
+            </p>
+          </div>
+        </div>
+        <div class="row mx-0">
+          <div class="col-lg-3 col-sm-6 mb-5">
+            <div class="card product-card">
+              <div class="product-img">
+                <img
+                  src="./images/products/product-1.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="d-flex align-items-center justify-content-between">
+                <h3>Mask Melon</h3>
+                <span>$70 kg</span>
+              </div>
+              <div class="product-detail">
+                <a href="#" class="btn main-btn">View Product</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-5">
+            <div class="card product-card">
+              <div class="product-img">
+                <img
+                  src="./images/products/product-2.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="d-flex align-items-center justify-content-between">
+                <h3>Mask Melon</h3>
+                <span>$70 kg</span>
+              </div>
+              <div class="product-detail">
+                <a href="#" class="btn main-btn">View Product</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-5">
+            <div class="card product-card">
+              <div class="product-img">
+                <img
+                  src="./images/products/product-3.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="d-flex align-items-center justify-content-between">
+                <h3>Mask Melon</h3>
+                <span>$70 kg</span>
+              </div>
+              <div class="product-detail">
+                <a href="#" class="btn main-btn">View Product</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-5">
+            <div class="card product-card">
+              <div class="product-img">
+                <img
+                  src="./images/products/product-4.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="d-flex align-items-center justify-content-between">
+                <h3>Mask Melon</h3>
+                <span>$70 kg</span>
+              </div>
+              <div class="product-detail">
+                <a href="#" class="btn main-btn">View Product</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonal section -->
+    <section class="testimonial-section">
+      <div class="container">
+        <div class="row pb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title">Lorem ipsum dolor sit amet.</h2>
+            <p class="section-subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Digni
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-xl-8 col-md-10">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="d-sm-flex">
+                    <div class="profile-box col-sm=5">
+                      <img
+                        src="./images/testimonial/testimonial-1.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="card col-sm-7">
+                      <div class="desc-box">
+                        <p class="fst-italic">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          ducimus!
+                        </p>
+                        <div class="my-4">
+                          <h4>jecob Oramson</h4>
+                          <p class="m-0 text-white">Happy Customer</p>
+                        </div>
+                        <img
+                          src="./images/testimonial/qoutes.svg"
+                          alt=""
+                          class="float-end"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-sm-flex">
+                    <div class="profile-box col-sm=5">
+                      <img
+                        src="./images/testimonial/testimonial-1.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="card col-sm-7">
+                      <div class="desc-box">
+                        <p class="fst-italic">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing
+                        </p>
+                        <div class="my-4">
+                          <h4>jecob Oramson</h4>
+                          <p class="m-0 text-white">Happy Customer</p>
+                        </div>
+                        <img
+                          src="./images/testimonial/qoutes.svg"
+                          alt=""
+                          class="float-end"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-sm-flex">
+                    <div class="profile-box col-sm=5">
+                      <img
+                        src="./images/testimonial/testimonial-1.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="card col-sm-7">
+                      <div class="desc-box">
+                        <p class="fst-italic">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing
+                          elit. Dicta libero odit
+                        </p>
+                        <div class="my-4">
+                          <h4>jecob Oramson</h4>
+                          <p class="m-0 text-white">Happy Customer</p>
+                        </div>
+                        <img
+                          src="./images/testimonial/qoutes.svg"
+                          alt=""
+                          class="float-end"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonal section -->
+    <!-- gallery section start -->
+
+    <section class="gallery_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center pb-5">
+            <h2 class="section-title">Our Gallery</h2>
+            <p class="section-subtitle">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, reprehenderit recusandae aperiam repellat molestias
+              quod.
+            </p>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <a
+              href="./images/gallery/g-1.jpg"
+              data-lightbox="image"
+              data-title="lemon"
+              ><img
+                src="./images/gallery/g-1.jpg"
+                alt=""
+                class="img-fluid rounded-3"
+            /></a>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <a
+              href="./images/gallery/g-2.jpg"
+              data-lightbox="image"
+              data-title="lemon"
+              ><img
+                src="./images/gallery/g-2.jpg"
+                alt=""
+                class="img-fluid rounded-3"
+            /></a>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <a
+              href="./images/gallery/g-3.jpg"
+              data-lightbox="image"
+              data-title="lemon"
+              ><img
+                src="./images/gallery/g-3.jpg"
+                alt=""
+                class="img-fluid rounded-3"
+            /></a>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <a
+              href="./images/gallery/g-4.jpg"
+              data-lightbox="image"
+              data-title="lemon"
+              ><img
+                src="./images/gallery/g-4.jpg"
+                alt=""
+                class="img-fluid rounded-3"
+            /></a>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <a
+              href="./images/gallery/g-5.jpg"
+              data-lightbox="image"
+              data-title="lemon"
+              ><img
+                src="./images/gallery/g-5.jpg"
+                alt=""
+                class="img-fluid rounded-3"
+            /></a>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <a
+              href="./images/gallery/g-6.jpg"
+              data-lightbox="image"
+              data-title="lemon"
+              ><img
+                src="./images/gallery/g-6.jpg"
+                alt=""
+                class="img-fluid rounded-3"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery section End -->
+    <!-- footer section start  -->
+    <section class="footer-wrapper mt-3 mb-md-0">
+      <div class="container px-5 px-lg-0">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+            <h5>lorem</h5>
+            <p class="mb-4 ps-0 company-details">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam fuga
+              eaque omnis fugiat hic repudiandae.
+            </p>
+            <div class="contact-info">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-home me-3"></i>No. 96, south city,
+                    London</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-envelope me-3"></i>demo@gamil.com</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-phone me-3"></i>+568185328</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+            <h5>Customer suport</h5>
+            <ul class="link-widget p-0">
+              <li><a href="#">About US</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms and Condition</a></li>
+              <li><a href="#">Product Returns</a></li>
+              <li><a href="#">Wholesle Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+            <h5>Quick Links</h5>
+            <ul class="link-widget p-0">
+              <li><a href="#">About US</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms and Condition</a></li>
+              <li><a href="#">Product Returns</a></li>
+              <li><a href="#">Wholesle Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+            <h5>News Letter</h5>
+            <div class="form-group mb-4">
+              <input
+                type="email"
+                class="form-control bg-transparent"
+                placeholder="Enter Your Email"
+              />
+              <button type="submit" class="btn main-btn">Subscribe</button>
+            </div>
+            <h5>Stay Connected</h5>
+            <ul class="social-network d-flex align-items-center p-0">
+              <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright-section">
+        <p>copy rigth text</p>
+      </div>
+    </section>
+    <!-- footer section End -->
+    <!-- jQuery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- light box js -->
+    <script src="JS/lightbox.js"></script>
+    <!-- bootstrap cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom js -->
+    <script src="JS/Main.js"></script>
+  </body>
+</html>
